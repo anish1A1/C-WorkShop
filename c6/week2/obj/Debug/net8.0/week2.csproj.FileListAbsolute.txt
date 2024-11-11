@@ -1,0 +1,14 @@
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.AssemblyInfoInputs.cache
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.AssemblyInfo.cs
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.csproj.CoreCompileInputs.cache
+C:\Users\suraj\.Net all\c6\week2\bin\Debug\net8.0\week2.exe
+C:\Users\suraj\.Net all\c6\week2\bin\Debug\net8.0\week2.deps.json
+C:\Users\suraj\.Net all\c6\week2\bin\Debug\net8.0\week2.runtimeconfig.json
+C:\Users\suraj\.Net all\c6\week2\bin\Debug\net8.0\week2.dll
+C:\Users\suraj\.Net all\c6\week2\bin\Debug\net8.0\week2.pdb
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.dll
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\refint\week2.dll
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.pdb
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.genruntimeconfig.cache
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\ref\week2.dll
