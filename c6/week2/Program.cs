@@ -1,6 +1,7 @@
 ﻿
-class Program{
 
+class Program
+{
     static void Main(string[] args)
     {
         double num1, num2;
@@ -9,16 +10,17 @@ class Program{
         Console.WriteLine("Simple Calculator in C#");
 
         //Get the first number
-        Console.Write("Enter the first number:");
+        Console.Write("Enter the first number: ");
+        while (!double.TryParse(Console.ReadLine(), out num1))
+        {
+            Console.Write("Invalid input. Please enter a valid number: ");
+        }
 
-        //user can give int numbers so converting into Double value
-        num1 = Convert.ToDouble(Console.ReadLine());
-        
-
-        Console.Write("Enter the second number:");
-
-        //user can give int numbers so converting into Double value
-        num2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Enter the second number: ");
+        while (!double.TryParse(Console.ReadLine(), out num2))
+        {
+            Console.Write("Invalid input. Please enter a valid number: ");
+        }
 
         Console.WriteLine("Enter the operation you want to do : + , -, /, *  :");
         operation = Console.ReadLine();
@@ -26,42 +28,56 @@ class Program{
         switch (operation)
         {
             case "+":
-            Console.WriteLine($"The sum of {num1} + {num2} is {num1 + num2}");
-            break;
+                Console.WriteLine($"The sum of {num1} + {num2} is {num1 + num2}");
+                break;
 
             case "*":
-            Console.WriteLine($"The mul of {num1} * {num2} is {num1 * num2}");
-            break;
+                Console.WriteLine($"The product of {num1} * {num2} is {num1 * num2}");
+                break;
 
             case "/":
-            Console.WriteLine($"The div of {num1} / {num2} is {num1 / num2}");
-            break;
+                if (num2 != 0)
+                {
+                    Console.WriteLine($"The division of {num1} / {num2} is {num1 / num2}");
+                }
+                else
+                {
+                    Console.WriteLine("Error: Division by zero is not allowed.");
+                }
+                break;
 
             case "-":
-            Console.WriteLine($"The sub of {num1} - {num2} is {num1 - num2}");
-            break;
+                Console.WriteLine($"The difference of {num1} - {num2} is {num1 - num2}");
+                break;
 
             default:
-            Console.WriteLine("Enter value as described");
-            break;
+                Console.Write("Invalid operation. Please enter one of the following: +, -, *, /");
+                break;
         }
 
+
+        //Using Big Int Value (maximum Value of Integer.)
 
         try
         {
-            checked  //a keyword
+            checked
             {
-                int x =int.MaxValue -1;
-                Console.WriteLine($"Initia")
+                int x = int.MaxValue;
+                Console.WriteLine('\n');
+                Console.WriteLine($"Initial value of x: {x}");
+                x++;
+                Console.WriteLine($"Value of x after increment: {x}");
             }
         }
-        catch (System.Exception)
+        catch (OverflowException ex)
         {
-            
-            throw;
+            Console.WriteLine("An overflow exception occurred: " + ex.Message);
         }
-
+        catch (Exception ex)
+        {
+            Console.WriteLine("An error occurred: " + ex.Message);
+        }
     }
-
-
 }
+
+             

@@ -12,3 +12,4 @@ C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\refint\week2.dll
 C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.pdb
 C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.genruntimeconfig.cache
 C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\ref\week2.dll
+C:\Users\suraj\.Net all\c6\week2\obj\Debug\net8.0\week2.sourcelink.json
