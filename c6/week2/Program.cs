@@ -69,7 +69,7 @@ class Program
                 Console.WriteLine($"Value of x after increment: {x}");
             }
         }
-        catch (OverflowException ex)
+        catch (OverflowException ex) // To catch overflow exceptions
         {
             Console.WriteLine("An overflow exception occurred: " + ex.Message);
         }
