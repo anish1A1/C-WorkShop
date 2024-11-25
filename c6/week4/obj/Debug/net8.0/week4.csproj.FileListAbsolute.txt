@@ -1,0 +1,15 @@
+C:\Users\suraj\.Net all\c6\week4\bin\Debug\net8.0\week4.exe
+C:\Users\suraj\.Net all\c6\week4\bin\Debug\net8.0\week4.deps.json
+C:\Users\suraj\.Net all\c6\week4\bin\Debug\net8.0\week4.runtimeconfig.json
+C:\Users\suraj\.Net all\c6\week4\bin\Debug\net8.0\week4.dll
+C:\Users\suraj\.Net all\c6\week4\bin\Debug\net8.0\week4.pdb
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.AssemblyInfoInputs.cache
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.AssemblyInfo.cs
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.csproj.CoreCompileInputs.cache
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.sourcelink.json
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.dll
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\refint\week4.dll
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.pdb
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\week4.genruntimeconfig.cache
+C:\Users\suraj\.Net all\c6\week4\obj\Debug\net8.0\ref\week4.dll
